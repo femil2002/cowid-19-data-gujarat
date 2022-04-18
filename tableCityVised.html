@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cowid-19 DATA</title>
+    <script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+    href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css" />
+    <style>
+        td {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body style="margin:20px auto">
+    <table id="mytable" style="width:100%">
+        <thead>
+            <tr>
+                <th>S. No.</th>
+                <th>District Name</th>
+                <th>Active positive cases</th>
+                <th>Cases Tested for COVID19</th>
+                <th>Patients Recovered</th>
+                <th>People Under Quarantine</th>
+                <th>Total Deaths</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ahmedabad</td>
+                <td>18</td>
+                <td>6580703</td>
+                <td>380919</td>
+                <td>33</td>
+                <td>3619</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Amreli</td>
+                <td>0</td>
+                <td>819810</td>
+                <td>12798</td>
+                <td>80</td>
+                <td>105</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Anand</td>
+                <td>1</td>
+                <td>806362</td>
+                <td>15407</td>
+                <td>0</td>
+                <td>53</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Aravalli</td>
+                <td>1</td>
+                <td>525651</td>
+                <td>5661</td>
+                <td>0</td>
+                <td>81</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Banaskantha</td>
+                <td>0</td>
+                <td>1220559</td>
+                <td>18167</td>
+                <td>0</td>
+                <td>166</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Bharuch</td>
+                <td>0</td>
+                <td>712216</td>
+                <td>17133</td>
+                <td>0</td>
+                <td>152</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Bhavnagar</td>
+                <td>0</td>
+                <td>1525008</td>
+                <td>28877</td>
+                <td>118</td>
+                <td>362</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Botad</td>
+                <td>0</td>
+                <td>337245</td>
+                <td>2308</td>
+                <td>0</td>
+                <td>48</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Chhota Udaipur</td>
+                <td>0</td>
+                <td>367688</td>
+                <td>3718</td>
+                <td>0</td>
+                <td>38</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Dahod</td>
+                <td>1</td>
+                <td>967181</td>
+                <td>11250</td>
+                <td>0</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Dang</td>
+                <td>0</td>
+                <td>111598</td>
+                <td>1240</td>
+                <td>389</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Devbhoomi Dwarka</td>
+                <td>0</td>
+                <td>340012</td>
+                <td>5092</td>
+                <td>20</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Gandhinagar</td>
+                <td>4</td>
+                <td>1101171</td>
+                <td>34819</td>
+                <td>4</td>
+                <td>226</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Gir Somnath</td>
+                <td>0</td>
+                <td>506216</td>
+                <td>9678</td>
+                <td>4</td>
+                <td>67</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Jamnagar</td>
+                <td>2</td>
+                <td>1134278</td>
+                <td>41305</td>
+                <td>71</td>
+                <td>519</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Junagadh</td>
+                <td>0</td>
+                <td>1320225</td>
+                <td>22484</td>
+                <td>0</td>
+                <td>272</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Kutch</td>
+                <td>6</td>
+                <td>1082212</td>
+                <td>18858</td>
+                <td>7</td>
+                <td>146</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Kheda</td>
+                <td>0</td>
+                <td>844727</td>
+                <td>14637</td>
+                <td>87</td>
+                <td>54</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Mahisagar</td>
+                <td>0</td>
+                <td>521850</td>
+                <td>8792</td>
+                <td>0</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Mehsana</td>
+                <td>4</td>
+                <td>1039552</td>
+                <td>30806</td>
+                <td>0</td>
+                <td>194</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Morbi</td>
+                <td>0</td>
+                <td>521587</td>
+                <td>10672</td>
+                <td>0</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Narmada</td>
+                <td>0</td>
+                <td>356357</td>
+                <td>6625</td>
+                <td>0</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Navsari</td>
+                <td>0</td>
+                <td>635879</td>
+                <td>11858</td>
+                <td>38</td>
+                <td>41</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Panchmahal</td>
+                <td>1</td>
+                <td>776509</td>
+                <td>13463</td>
+                <td>0</td>
+                <td>83</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Patan</td>
+                <td>3</td>
+                <td>685455</td>
+                <td>16109</td>
+                <td>0</td>
+                <td>129</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>Porbandar</td>
+                <td>0</td>
+                <td>342791</td>
+                <td>4159</td>
+                <td>5</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>Rajkot</td>
+                <td>2</td>
+                <td>2562038</td>
+                <td>83784</td>
+                <td>49</td>
+                <td>798</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>Sabarkantha</td>
+                <td>0</td>
+                <td>715256</td>
+                <td>11601</td>
+                <td>30</td>
+                <td>163</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>Surat</td>
+                <td>3</td>
+                <td>8099015</td>
+                <td>202897</td>
+                <td>550</td>
+                <td>2080</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>Surendranagar</td>
+                <td>0</td>
+                <td>725232</td>
+                <td>9945</td>
+                <td>0</td>
+                <td>139</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>Tapi</td>
+                <td>0</td>
+                <td>361315</td>
+                <td>5772</td>
+                <td>46</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>Vadodara</td>
+                <td>15</td>
+                <td>2555746</td>
+                <td>139180</td>
+                <td>45</td>
+                <td>921</td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td>Valsad</td>
+                <td>3</td>
+                <td>819194</td>
+                <td>12753</td>
+                <td>14</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>S. No.</th>
+                <th>District Name</th>
+                <th>Active positive cases</th>
+                <th>Cases Tested for COVID19</th>
+                <th>Patients Recovered</th>
+                <th>People Under Quarantine</th>
+                <th>Total Deaths</th>
+            </tr>
+        </tfoot>
+    </table>
+    <script type="text/javascript" charset="utf8"
+        src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(function () {
+            $("#mytable").dataTable({
+                "scrollY": "400px",
+                "scrollCollapse": true,
+                "paging": false
+            });
+        });
+    </script>
+</body>
+
+</html>
